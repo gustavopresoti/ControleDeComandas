@@ -1,4 +1,4 @@
-#include "usermanagement.h"
+#include "include/usermanagement.h"
 #include "ui_usermanagement.h"
 
 UserManagement::UserManagement(QWidget *parent, QString user_email) :
@@ -22,5 +22,9 @@ void UserManagement::on_pushButton_backToDashboard_clicked()
 
 void UserManagement::on_pushButton_createUser_clicked()
 {
+    createUser = new CreateUser(this);
 
+    createUser->setModal(true);
+
+    createUser->exec();
 }

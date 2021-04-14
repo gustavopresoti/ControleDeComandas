@@ -1,4 +1,4 @@
-#include "loginwindow.h"
+#include "lib/include/loginwindow.h"
 
 #include <QApplication>
 

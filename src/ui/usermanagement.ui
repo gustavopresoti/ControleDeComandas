@@ -75,6 +75,11 @@
      </item>
      <item>
       <widget class="QPushButton" name="pushButton_findUser">
+       <property name="font">
+        <font>
+         <strikeout>true</strikeout>
+        </font>
+       </property>
        <property name="text">
         <string>Buscar usuário</string>
        </property>
@@ -82,6 +87,11 @@
      </item>
      <item>
       <widget class="QPushButton" name="pushButton_updateUser">
+       <property name="font">
+        <font>
+         <strikeout>true</strikeout>
+        </font>
+       </property>
        <property name="text">
         <string>Atualizar usuário</string>
        </property>
@@ -89,6 +99,11 @@
      </item>
      <item>
       <widget class="QPushButton" name="pushButton_deleteUser">
+       <property name="font">
+        <font>
+         <strikeout>true</strikeout>
+        </font>
+       </property>
        <property name="text">
         <string>Remover usuário</string>
        </property>

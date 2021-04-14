@@ -1,4 +1,4 @@
-#include "loginwindow.h"
+#include "include/loginwindow.h"
 #include "ui_loginwindow.h"
 #include <QMessageBox>
 
@@ -34,7 +34,7 @@ void LoginWindow::on_pushButton_Login_clicked()
     }
 
     QSqlQuery query;
-    if(query.exec("select * from tb_users where email='"+email+"' and password='"+password+"'")){
+    if(query.exec("select * from tb_users where email_user='"+email+"' and password_user='"+password+"'")){
         int cont = 0;
         bool isAdmin = false;
 
@@ -48,7 +48,9 @@ void LoginWindow::on_pushButton_Login_clicked()
 
             dashboard = new Dashboard(this, email, isAdmin);
 
-            dashboard->show();
+            dashboard->setModal(true);
+
+            dashboard->exec();
         }else {
             QMessageBox::warning(this, "Login", "Credenciais inválidas!");
 

@@ -2,6 +2,7 @@
 #define CREATEUSER_H
 
 #include <QDialog>
+#include <QtSql>
 
 namespace Ui {
 class CreateUser;
@@ -14,6 +15,11 @@ class CreateUser : public QDialog
 public:
     explicit CreateUser(QWidget *parent = nullptr);
     ~CreateUser();
+
+private slots:
+    void on_pushButton_userCreateCancel_clicked();
+
+    void on_pushButton_userCreate_clicked();
 
 private:
     Ui::CreateUser *ui;

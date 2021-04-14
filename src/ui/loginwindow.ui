@@ -63,6 +63,9 @@
       </item>
       <item>
        <widget class="QLineEdit" name="lineEdit_Email">
+        <property name="text">
+         <string>admin</string>
+        </property>
         <property name="placeholderText">
          <string>Digite o email...</string>
         </property>
@@ -98,7 +101,7 @@
          <enum>Qt::DefaultContextMenu</enum>
         </property>
         <property name="text">
-         <string/>
+         <string>admin</string>
         </property>
         <property name="echoMode">
          <enum>QLineEdit::Password</enum>

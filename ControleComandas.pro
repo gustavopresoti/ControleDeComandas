@@ -8,24 +8,10 @@ CONFIG += c++11
 # In order to do so, uncomment the following line.
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
-SOURCES += \
-    createuser.cpp \
-    dashboard.cpp \
-    main.cpp \
-    loginwindow.cpp \
-    usermanagement.cpp
+TEMPLATE = subdirs
 
-HEADERS += \
-    createuser.h \
-    dashboard.h \
-    loginwindow.h \
-    usermanagement.h
-
-FORMS += \
-    createuser.ui \
-    dashboard.ui \
-    loginwindow.ui \
-    usermanagement.ui
+SUBDIRS += \
+    src \
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

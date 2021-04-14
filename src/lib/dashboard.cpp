@@ -1,4 +1,4 @@
-#include "dashboard.h"
+#include "include/dashboard.h"
 #include "ui_dashboard.h"
 
 Dashboard::Dashboard(QWidget *parent, QString user_email, bool isAdmin) :
@@ -32,5 +32,29 @@ void Dashboard::on_pushButton_userManagement_clicked()
 
     userManagement = new UserManagement(this, activeUser);
 
-    userManagement->show();
+    userManagement->setModal(true);
+
+    userManagement->exec();
+}
+
+void Dashboard::on_pushButton_orderPaperManagement_clicked()
+{
+    QString activeUser = ui->lineEdit_loggedAsDashboard->text();
+
+    orderPaperManagement = new OrderPaperManagement(this, activeUser);
+
+    orderPaperManagement->setModal(true);
+
+    orderPaperManagement->exec();
+}
+
+void Dashboard::on_pushButton_clientManagement_clicked()
+{
+    QString activeUser = ui->lineEdit_loggedAsDashboard->text();
+
+    clientManagement = new ClientManagement(this, activeUser);
+
+    clientManagement->setModal(true);
+
+    clientManagement->exec();
 }
