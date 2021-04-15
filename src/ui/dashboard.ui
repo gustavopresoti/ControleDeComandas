@@ -57,11 +57,11 @@
       <widget class="QPushButton" name="pushButton_itemManagement">
        <property name="font">
         <font>
-         <strikeout>true</strikeout>
+         <strikeout>false</strikeout>
         </font>
        </property>
        <property name="text">
-        <string>Gestão de itens</string>
+        <string>Gestão de itens/produtos</string>
        </property>
       </widget>
      </item>
@@ -95,7 +95,7 @@
       <widget class="QPushButton" name="pushButton_report">
        <property name="font">
         <font>
-         <strikeout>true</strikeout>
+         <strikeout>false</strikeout>
         </font>
        </property>
        <property name="text">

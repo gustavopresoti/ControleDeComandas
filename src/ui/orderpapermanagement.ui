@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Dialog</string>
+   <string>Gestão de Comandas | Sistema de Controle de Comandas</string>
   </property>
   <widget class="QGroupBox" name="groupBox">
    <property name="geometry">

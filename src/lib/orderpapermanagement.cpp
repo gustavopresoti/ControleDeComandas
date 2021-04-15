@@ -28,3 +28,12 @@ void OrderPaperManagement::on_pushButton_createOrderPaper_clicked()
 
     createOrderPaper->exec();
 }
+
+void OrderPaperManagement::on_pushButton_deleteOrderPaper_2_clicked()
+{
+    showActiveOrderPapers = new ShowActiveOrderPapers(this);
+
+    showActiveOrderPapers->setModal(true);
+
+    showActiveOrderPapers->exec();
+}

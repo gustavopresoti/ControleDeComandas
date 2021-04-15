@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>CreateClient</class>
- <widget class="QDialog" name="CreateClient">
+ <class>CreateItem</class>
+ <widget class="QDialog" name="CreateItem">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -11,12 +11,12 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Criar Cliente | Sistema de Controle de Comandas</string>
+   <string>Criar Item/Produto | Sistema de Controle de Comandas</string>
   </property>
-  <widget class="QGroupBox" name="groupBox_clientCreate">
+  <widget class="QGroupBox" name="groupBox_itemCreate">
    <property name="geometry">
     <rect>
-     <x>19</x>
+     <x>9</x>
      <y>110</y>
      <width>491</width>
      <height>401</height>
@@ -25,7 +25,7 @@
    <property name="title">
     <string/>
    </property>
-   <widget class="QPushButton" name="pushButton_clientCreate">
+   <widget class="QPushButton" name="pushButton_itemCreate">
     <property name="geometry">
      <rect>
       <x>60</x>
@@ -38,7 +38,7 @@
      <string>Criar</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_clientCreateCancel">
+   <widget class="QPushButton" name="pushButton_itemCreateCancel">
     <property name="geometry">
      <rect>
       <x>280</x>
@@ -60,18 +60,18 @@
       <height>281</height>
      </rect>
     </property>
-    <layout class="QVBoxLayout" name="verticalLayout_clientCreate">
+    <layout class="QVBoxLayout" name="verticalLayout_itemCreate">
      <item>
-      <layout class="QVBoxLayout" name="verticalLayout_clientName">
+      <layout class="QVBoxLayout" name="verticalLayout_itemName">
        <item>
-        <widget class="QLabel" name="label_clientName">
+        <widget class="QLabel" name="label_itemName">
          <property name="text">
-          <string>Nome (*)</string>
+          <string>Nome</string>
          </property>
         </widget>
        </item>
        <item>
-        <widget class="QLineEdit" name="lineEdit_clientName">
+        <widget class="QLineEdit" name="lineEdit_itemName">
          <property name="clearButtonEnabled">
           <bool>false</bool>
          </property>
@@ -80,54 +80,68 @@
       </layout>
      </item>
      <item>
-      <layout class="QVBoxLayout" name="verticalLayout_clientEmail">
+      <layout class="QVBoxLayout" name="verticalLayout_itemDescription">
        <item>
-        <widget class="QLabel" name="label_clientEmail">
+        <widget class="QLabel" name="label_itemDescription">
          <property name="text">
-          <string>Email (*)</string>
+          <string>Descrição</string>
          </property>
         </widget>
        </item>
        <item>
-        <widget class="QLineEdit" name="lineEdit_clientEmail"/>
+        <widget class="QLineEdit" name="lineEdit_itemDescription"/>
        </item>
       </layout>
      </item>
      <item>
-      <layout class="QVBoxLayout" name="verticalLayout_clientBirthDate">
+      <layout class="QVBoxLayout" name="verticalLayout_itemAmount">
        <item>
-        <widget class="QLabel" name="label_clientBirthDate">
+        <widget class="QLabel" name="label_itemAmount">
          <property name="text">
-          <string>Data de nascimento</string>
+          <string>Quantidade</string>
          </property>
         </widget>
        </item>
        <item>
-        <widget class="QDateEdit" name="dateEdit_clientBirthDate"/>
+        <widget class="QLineEdit" name="lineEdit_itemAmount">
+         <property name="inputMask">
+          <string/>
+         </property>
+        </widget>
        </item>
       </layout>
      </item>
      <item>
-      <layout class="QVBoxLayout" name="verticalLayout_clientCPF">
+      <layout class="QVBoxLayout" name="verticalLayout_itemValue">
        <item>
-        <widget class="QLabel" name="label_clientCPF">
+        <widget class="QLabel" name="label_itemValue">
          <property name="text">
-          <string>CPF</string>
+          <string>Valor</string>
          </property>
         </widget>
        </item>
        <item>
-        <widget class="QLineEdit" name="lineEdit_clientCPF"/>
+        <widget class="QLineEdit" name="lineEdit_itemValue">
+         <property name="inputMethodHints">
+          <set>Qt::ImhNone</set>
+         </property>
+         <property name="inputMask">
+          <string/>
+         </property>
+         <property name="maxLength">
+          <number>6</number>
+         </property>
+        </widget>
        </item>
       </layout>
      </item>
     </layout>
    </widget>
   </widget>
-  <widget class="QLabel" name="label_clientCreateTitle">
+  <widget class="QLabel" name="label_itemCreateTitle">
    <property name="geometry">
     <rect>
-     <x>30</x>
+     <x>20</x>
      <y>20</y>
      <width>481</width>
      <height>31</height>
@@ -139,7 +153,7 @@
     </font>
    </property>
    <property name="text">
-    <string>Criar Cliente</string>
+    <string>Criar Item/Produto</string>
    </property>
    <property name="alignment">
     <set>Qt::AlignCenter</set>

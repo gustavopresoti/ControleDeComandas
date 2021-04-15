@@ -58,3 +58,25 @@ void Dashboard::on_pushButton_clientManagement_clicked()
 
     clientManagement->exec();
 }
+
+void Dashboard::on_pushButton_report_clicked()
+{
+    QString activeUser = ui->lineEdit_loggedAsDashboard->text();
+
+    report = new Report(this, activeUser);
+
+    report->setModal(true);
+
+    report->exec();
+}
+
+void Dashboard::on_pushButton_itemManagement_clicked()
+{
+    QString activeUser = ui->lineEdit_loggedAsDashboard->text();
+
+    itemsManagement = new ItemsManagement(this, activeUser);
+
+    itemsManagement->setModal(true);
+
+    itemsManagement->exec();
+}

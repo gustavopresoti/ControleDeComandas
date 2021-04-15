@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>ClientManagement</class>
- <widget class="QDialog" name="ClientManagement">
+ <class>ItemsManagement</class>
+ <widget class="QDialog" name="ItemsManagement">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -11,83 +11,8 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Gestão de Clientes | Sistema de Controle de Comandas</string>
+   <string>Gestão de Itens/Produtos | Sistema de Controle de Comandas</string>
   </property>
-  <widget class="QGroupBox" name="groupBox">
-   <property name="geometry">
-    <rect>
-     <x>20</x>
-     <y>150</y>
-     <width>491</width>
-     <height>351</height>
-    </rect>
-   </property>
-   <property name="title">
-    <string/>
-   </property>
-   <widget class="QWidget" name="layoutWidget_2">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>30</y>
-      <width>451</width>
-      <height>301</height>
-     </rect>
-    </property>
-    <layout class="QVBoxLayout" name="verticalLayout">
-     <item>
-      <widget class="QPushButton" name="pushButton_createClient">
-       <property name="text">
-        <string>Criar cliente</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QPushButton" name="pushButton_findClient">
-       <property name="font">
-        <font>
-         <strikeout>true</strikeout>
-        </font>
-       </property>
-       <property name="text">
-        <string>Buscar cliente</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QPushButton" name="pushButton_updateClient">
-       <property name="font">
-        <font>
-         <strikeout>true</strikeout>
-        </font>
-       </property>
-       <property name="text">
-        <string>Atualizar cliente</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QPushButton" name="pushButton_deleteClient">
-       <property name="font">
-        <font>
-         <strikeout>true</strikeout>
-        </font>
-       </property>
-       <property name="text">
-        <string>Remover cliente</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QPushButton" name="pushButton_backToDashboard">
-       <property name="text">
-        <string>Voltar</string>
-       </property>
-      </widget>
-     </item>
-    </layout>
-   </widget>
-  </widget>
   <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
@@ -118,6 +43,81 @@
      </widget>
     </item>
    </layout>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>150</y>
+     <width>491</width>
+     <height>351</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QWidget" name="layoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>30</y>
+      <width>451</width>
+      <height>301</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QPushButton" name="pushButton_createItem">
+       <property name="text">
+        <string>Criar item/produto</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_findItem">
+       <property name="font">
+        <font>
+         <strikeout>true</strikeout>
+        </font>
+       </property>
+       <property name="text">
+        <string>Buscar item/produto</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_updateItem">
+       <property name="font">
+        <font>
+         <strikeout>true</strikeout>
+        </font>
+       </property>
+       <property name="text">
+        <string>Atualizar item/produto</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_deleteItem">
+       <property name="font">
+        <font>
+         <strikeout>true</strikeout>
+        </font>
+       </property>
+       <property name="text">
+        <string>Remover item/produto</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_backToDashboard">
+       <property name="text">
+        <string>Voltar</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
   </widget>
  </widget>
  <resources/>

@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Dialog</string>
+   <string>Criar Comanda | Sistema de Controle de Comandas</string>
   </property>
   <widget class="QGroupBox" name="groupBox_orderPaperCreate">
    <property name="geometry">
@@ -51,7 +51,7 @@
      <string>Cancelar</string>
     </property>
    </widget>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>10</x>
