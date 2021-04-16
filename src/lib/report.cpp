@@ -37,3 +37,21 @@ void Report::on_pushButton_showItems_clicked()
 
     showItems->exec();
 }
+
+void Report::on_pushButton_showTotalCollectedPeriod_clicked()
+{
+    showTotalRevenues = new ShowTotalRevenues(this);
+
+    showTotalRevenues->setModal(true);
+
+    showTotalRevenues->exec();
+}
+
+void Report::on_pushButton_showOrderPapersPeriod_clicked()
+{
+    showOrderPapers = new ShowOrderPapers(this);
+
+    showOrderPapers->setModal(true);
+
+    showOrderPapers->exec();
+}

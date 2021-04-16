@@ -4,6 +4,8 @@
 #include <QDialog>
 #include "showusers.h"
 #include "showitems.h"
+#include "showtotalrevenues.h"
+#include "showorderpapers.h"
 
 namespace Ui {
 class Report;
@@ -24,10 +26,16 @@ private slots:
 
     void on_pushButton_showItems_clicked();
 
+    void on_pushButton_showTotalCollectedPeriod_clicked();
+
+    void on_pushButton_showOrderPapersPeriod_clicked();
+
 private:
     Ui::Report *ui;
     ShowUsers *showUsers;
     ShowItems *showItems;
+    ShowTotalRevenues *showTotalRevenues;
+    ShowOrderPapers *showOrderPapers;
 };
 
 #endif // REPORT_H

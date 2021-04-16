@@ -70,7 +70,7 @@
       <widget class="QPushButton" name="pushButton_showOrderPapersPeriod">
        <property name="font">
         <font>
-         <strikeout>true</strikeout>
+         <strikeout>false</strikeout>
         </font>
        </property>
        <property name="text">
@@ -94,11 +94,11 @@
       <widget class="QPushButton" name="pushButton_showTotalCollectedPeriod">
        <property name="font">
         <font>
-         <strikeout>true</strikeout>
+         <strikeout>false</strikeout>
         </font>
        </property>
        <property name="text">
-        <string>Total arrecadado por período</string>
+        <string>Total arrecadado</string>
        </property>
       </widget>
      </item>

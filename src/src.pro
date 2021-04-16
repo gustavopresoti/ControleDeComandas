@@ -16,6 +16,8 @@ SOURCES += \
     lib/report.cpp \
     lib/showactiveorderpapers.cpp \
     lib/showitems.cpp \
+    lib/showorderpapers.cpp \
+    lib/showtotalrevenues.cpp \
     lib/showusers.cpp \
     lib/usermanagement.cpp \
     lib/dashboard.cpp \
@@ -37,9 +39,13 @@ HEADERS += \
     lib/include/loginwindow.h \
     lib/include/showactiveorderpapers.h \
     lib/include/itemsmanagement.h \
-    lib/include/showitems.h
+    lib/include/showitems.h \
+    lib/include/showtotalrevenues.h \
+    lib/include/showorderpapers.h
 
 FORMS += \
+    ui/showorderpapers.ui \
+    ui/showtotalrevenues.ui \
     ui/showitems.ui \
     ui/itemsmanagement.ui \
     ui/createitem.ui \
