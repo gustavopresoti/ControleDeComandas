@@ -13,7 +13,7 @@
   <property name="windowTitle">
    <string>Gestão de Clientes | Sistema de Controle de Comandas</string>
   </property>
-  <widget class="QGroupBox" name="groupBox">
+  <widget class="QGroupBox" name="groupBox_clientManagement">
    <property name="geometry">
     <rect>
      <x>20</x>
@@ -34,7 +34,7 @@
       <height>301</height>
      </rect>
     </property>
-    <layout class="QVBoxLayout" name="verticalLayout">
+    <layout class="QVBoxLayout" name="verticalLayout_clientManagement">
      <item>
       <widget class="QPushButton" name="pushButton_createClient">
        <property name="text">
@@ -46,7 +46,7 @@
       <widget class="QPushButton" name="pushButton_findClient">
        <property name="font">
         <font>
-         <strikeout>true</strikeout>
+         <strikeout>false</strikeout>
         </font>
        </property>
        <property name="text">
@@ -70,7 +70,7 @@
       <widget class="QPushButton" name="pushButton_deleteClient">
        <property name="font">
         <font>
-         <strikeout>true</strikeout>
+         <strikeout>false</strikeout>
         </font>
        </property>
        <property name="text">
@@ -97,7 +97,7 @@
      <height>41</height>
     </rect>
    </property>
-   <layout class="QHBoxLayout" name="horizontalLayout">
+   <layout class="QHBoxLayout" name="horizontalLayout_clientManagementLoggedAsUser">
     <item>
      <widget class="QLabel" name="label_loggedAsUser">
       <property name="font">

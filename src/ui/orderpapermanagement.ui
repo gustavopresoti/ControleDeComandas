@@ -13,7 +13,7 @@
   <property name="windowTitle">
    <string>Gestão de Comandas | Sistema de Controle de Comandas</string>
   </property>
-  <widget class="QGroupBox" name="groupBox">
+  <widget class="QGroupBox" name="groupBox_orderPaperManagement">
    <property name="geometry">
     <rect>
      <x>20</x>
@@ -34,7 +34,7 @@
       <height>301</height>
      </rect>
     </property>
-    <layout class="QVBoxLayout" name="verticalLayout">
+    <layout class="QVBoxLayout" name="verticalLayout_orderPaperManagement">
      <item>
       <widget class="QPushButton" name="pushButton_createOrderPaper">
        <property name="text">
@@ -46,7 +46,7 @@
       <widget class="QPushButton" name="pushButton_findOrderPaper">
        <property name="font">
         <font>
-         <strikeout>true</strikeout>
+         <strikeout>false</strikeout>
         </font>
        </property>
        <property name="text">
@@ -70,7 +70,7 @@
       <widget class="QPushButton" name="pushButton_deleteOrderPaper">
        <property name="font">
         <font>
-         <strikeout>true</strikeout>
+         <strikeout>false</strikeout>
         </font>
        </property>
        <property name="text">
@@ -79,7 +79,7 @@
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="pushButton_deleteOrderPaper_2">
+      <widget class="QPushButton" name="pushButton_showActiveOrderPapers">
        <property name="font">
         <font>
          <strikeout>false</strikeout>
@@ -109,7 +109,7 @@
      <height>41</height>
     </rect>
    </property>
-   <layout class="QHBoxLayout" name="horizontalLayout">
+   <layout class="QHBoxLayout" name="horizontalLayout_orderPaperManagementLoggedAs">
     <item>
      <widget class="QLabel" name="label_loggedAsUser">
       <property name="font">

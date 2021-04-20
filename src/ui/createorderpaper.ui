@@ -57,12 +57,12 @@
       <x>10</x>
       <y>10</y>
       <width>561</width>
-      <height>341</height>
+      <height>331</height>
      </rect>
     </property>
-    <layout class="QVBoxLayout" name="verticalLayout_2">
+    <layout class="QVBoxLayout" name="verticalLayout_orderPaperCreate">
      <item>
-      <layout class="QHBoxLayout" name="horizontalLayout">
+      <layout class="QHBoxLayout" name="horizontalLayout_orderPaperClientName">
        <item>
         <widget class="QLabel" name="label_orderPaperClientName">
          <property name="text">
@@ -80,7 +80,7 @@
       </layout>
      </item>
      <item>
-      <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <layout class="QHBoxLayout" name="horizontalLayout_orderPaperClientAge">
        <item>
         <widget class="QLabel" name="label_orderPaperClientAge">
          <property name="text">
@@ -94,7 +94,7 @@
       </layout>
      </item>
      <item>
-      <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <layout class="QHBoxLayout" name="horizontalLayout_orderPaperClientTimestamp">
        <item>
         <widget class="QLabel" name="label_orderPaperTimestamp">
          <property name="text">
@@ -122,7 +122,7 @@
       </layout>
      </item>
      <item>
-      <layout class="QHBoxLayout" name="horizontalLayout_4">
+      <layout class="QHBoxLayout" name="horizontalLayout_orderPaperItems">
        <item>
         <widget class="QLabel" name="label_orderPaperItems">
          <property name="text">
@@ -131,7 +131,7 @@
         </widget>
        </item>
        <item>
-        <layout class="QVBoxLayout" name="verticalLayout">
+        <layout class="QVBoxLayout" name="verticalLayout_orderPaperItems">
          <item>
           <widget class="QPlainTextEdit" name="plainTextEdit_orderPaperItems"/>
          </item>
@@ -152,7 +152,7 @@
       </layout>
      </item>
      <item>
-      <layout class="QHBoxLayout" name="horizontalLayout_5">
+      <layout class="QHBoxLayout" name="horizontalLayout_orderPaperAdditionalValue">
        <item>
         <widget class="QLabel" name="label_orderPaperAdditionalValue">
          <property name="text">
@@ -166,7 +166,7 @@
       </layout>
      </item>
      <item>
-      <layout class="QHBoxLayout" name="horizontalLayout_6">
+      <layout class="QHBoxLayout" name="horizontalLayout_orderPaperDiscountValue">
        <item>
         <widget class="QLabel" name="label_orderPaperDiscountValue">
          <property name="text">
@@ -180,7 +180,7 @@
       </layout>
      </item>
      <item>
-      <layout class="QHBoxLayout" name="horizontalLayout_7">
+      <layout class="QHBoxLayout" name="horizontalLayout_TotalValue">
        <item>
         <widget class="QLabel" name="label_orderPaperTotalValue">
          <property name="text">

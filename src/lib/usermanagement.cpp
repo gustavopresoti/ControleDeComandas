@@ -28,3 +28,21 @@ void UserManagement::on_pushButton_createUser_clicked()
 
     createUser->exec();
 }
+
+void UserManagement::on_pushButton_findUser_clicked()
+{
+    findUser = new FindUser(this);
+
+    findUser->setModal(true);
+
+    findUser->exec();
+}
+
+void UserManagement::on_pushButton_deleteUser_clicked()
+{
+    deleteUser = new DeleteUser(this);
+
+    deleteUser->setModal(true);
+
+    deleteUser->exec();
+}

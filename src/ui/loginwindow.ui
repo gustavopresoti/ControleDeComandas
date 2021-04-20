@@ -13,8 +13,8 @@
   <property name="windowTitle">
    <string>Login | Sistema de Controle de Comandas</string>
   </property>
-  <widget class="QWidget" name="centralwidget">
-   <widget class="QGroupBox" name="groupBox">
+  <widget class="QWidget" name="centralwidget_loginWindow">
+   <widget class="QGroupBox" name="groupBox_loginWindow">
     <property name="geometry">
      <rect>
       <x>30</x>
@@ -48,7 +48,7 @@
        <height>55</height>
       </rect>
      </property>
-     <layout class="QVBoxLayout" name="verticalLayout_2">
+     <layout class="QVBoxLayout" name="verticalLayout_loginWindowEmail">
       <item>
        <widget class="QLabel" name="label_Email">
         <property name="font">
@@ -64,7 +64,7 @@
       <item>
        <widget class="QLineEdit" name="lineEdit_Email">
         <property name="text">
-         <string/>
+         <string>admin</string>
         </property>
         <property name="placeholderText">
          <string>Digite o email...</string>
@@ -82,7 +82,7 @@
        <height>55</height>
       </rect>
      </property>
-     <layout class="QVBoxLayout" name="verticalLayout_3">
+     <layout class="QVBoxLayout" name="verticalLayout_loginWindowPassword">
       <item>
        <widget class="QLabel" name="label_Password">
         <property name="font">
@@ -101,7 +101,7 @@
          <enum>Qt::DefaultContextMenu</enum>
         </property>
         <property name="text">
-         <string/>
+         <string>admin</string>
         </property>
         <property name="echoMode">
          <enum>QLineEdit::Password</enum>
@@ -114,7 +114,7 @@
      </layout>
     </widget>
    </widget>
-   <widget class="QLabel" name="label_Header">
+   <widget class="QLabel" name="label_loginWindowHeader">
     <property name="geometry">
      <rect>
       <x>180</x>

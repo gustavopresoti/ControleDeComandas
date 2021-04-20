@@ -3,6 +3,8 @@
 
 #include <QDialog>
 #include "createclient.h"
+#include "findclient.h"
+#include "deleteclient.h"
 
 namespace Ui {
 class ClientManagement;
@@ -21,9 +23,15 @@ private slots:
 
     void on_pushButton_createClient_clicked();
 
+    void on_pushButton_findClient_clicked();
+
+    void on_pushButton_deleteClient_clicked();
+
 private:
     Ui::ClientManagement *ui;
     CreateClient *createClient;
+    FindClient *findClient;
+    DeleteClient *deleteClient;
 };
 
 #endif // CLIENTMANAGEMENT_H

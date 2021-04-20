@@ -3,6 +3,9 @@
 
 #include <QDialog>
 #include "createuser.h"
+#include "finduser.h"
+// #include "updateuser.h"
+#include "deleteuser.h"
 
 namespace Ui {
 class UserManagement;
@@ -21,9 +24,16 @@ private slots:
 
     void on_pushButton_createUser_clicked();
 
+    void on_pushButton_findUser_clicked();
+
+    void on_pushButton_deleteUser_clicked();
+
 private:
     Ui::UserManagement *ui;
     CreateUser *createUser;
+    FindUser *findUser;
+    // UpdateUser *updateUser;
+    DeleteUser *deleteUser;
 };
 
 #endif // USERMANAGEMENT_H

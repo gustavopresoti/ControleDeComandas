@@ -28,3 +28,21 @@ void ClientManagement::on_pushButton_createClient_clicked()
 
     createClient->exec();
 }
+
+void ClientManagement::on_pushButton_findClient_clicked()
+{
+    findClient = new FindClient(this);
+
+    findClient->setModal(true);
+
+    findClient->exec();
+}
+
+void ClientManagement::on_pushButton_deleteClient_clicked()
+{
+    deleteClient = new DeleteClient(this);
+
+    deleteClient->setModal(true);
+
+    deleteClient->exec();
+}

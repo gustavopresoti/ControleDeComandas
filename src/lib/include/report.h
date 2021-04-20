@@ -4,8 +4,8 @@
 #include <QDialog>
 #include "showusers.h"
 #include "showitems.h"
-#include "showtotalrevenues.h"
 #include "showorderpapers.h"
+#include "showtotalrevenues.h"
 
 namespace Ui {
 class Report;

@@ -3,6 +3,9 @@
 
 #include <QDialog>
 #include "createorderpaper.h"
+#include "createorderpaperitem.h"
+#include "findorderpaper.h"
+#include "deleteorderpaper.h"
 #include "showactiveorderpapers.h"
 
 namespace Ui {
@@ -22,11 +25,17 @@ private slots:
 
     void on_pushButton_createOrderPaper_clicked();
 
-    void on_pushButton_deleteOrderPaper_2_clicked();
+    void on_pushButton_findOrderPaper_clicked();
+
+    void on_pushButton_showActiveOrderPapers_clicked();
+
+    void on_pushButton_deleteOrderPaper_clicked();
 
 private:
     Ui::OrderPaperManagement *ui;
     CreateOrderPaper *createOrderPaper;
+    FindOrderPaper *findOrderPaper;
+    DeleteOrderPaper *deleteOrderPaper;
     ShowActiveOrderPapers *showActiveOrderPapers;
 };
 

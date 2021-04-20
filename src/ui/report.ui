@@ -22,7 +22,7 @@
      <height>41</height>
     </rect>
    </property>
-   <layout class="QHBoxLayout" name="horizontalLayout">
+   <layout class="QHBoxLayout" name="horizontalLayout_reportLoggedAs">
     <item>
      <widget class="QLabel" name="label_loggedAsUser">
       <property name="font">
@@ -44,7 +44,7 @@
     </item>
    </layout>
   </widget>
-  <widget class="QGroupBox" name="groupBox">
+  <widget class="QGroupBox" name="groupBox_report">
    <property name="geometry">
     <rect>
      <x>20</x>
@@ -65,7 +65,7 @@
       <height>301</height>
      </rect>
     </property>
-    <layout class="QVBoxLayout" name="verticalLayout">
+    <layout class="QVBoxLayout" name="verticalLayout_report">
      <item>
       <widget class="QPushButton" name="pushButton_showOrderPapersPeriod">
        <property name="font">

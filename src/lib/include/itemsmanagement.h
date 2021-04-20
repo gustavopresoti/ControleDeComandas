@@ -3,6 +3,7 @@
 
 #include <QDialog>
 #include "createitem.h"
+#include "deleteitem.h"
 
 namespace Ui {
 class ItemsManagement;
@@ -21,9 +22,12 @@ private slots:
 
     void on_pushButton_createItem_clicked();
 
+    void on_pushButton_deleteItem_clicked();
+
 private:
     Ui::ItemsManagement *ui;
     CreateItem *createItem;
+    DeleteItem *deleteItem;
 };
 
 #endif // ITEMSMANAGEMENT_H

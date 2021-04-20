@@ -4,9 +4,9 @@
 #include <QDialog>
 #include "itemsmanagement.h"
 #include "usermanagement.h"
-#include "orderpapermanagement.h"
 #include "clientmanagement.h"
 #include "report.h"
+#include "orderpapermanagement.h"
 
 namespace Ui {
 class Dashboard;

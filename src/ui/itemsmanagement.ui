@@ -22,7 +22,7 @@
      <height>41</height>
     </rect>
    </property>
-   <layout class="QHBoxLayout" name="horizontalLayout">
+   <layout class="QHBoxLayout" name="horizontalLayout_itemManagementLoggedAs">
     <item>
      <widget class="QLabel" name="label_loggedAsUser">
       <property name="font">
@@ -44,7 +44,7 @@
     </item>
    </layout>
   </widget>
-  <widget class="QGroupBox" name="groupBox">
+  <widget class="QGroupBox" name="groupBox_itemsManagement">
    <property name="geometry">
     <rect>
      <x>20</x>
@@ -65,7 +65,7 @@
       <height>301</height>
      </rect>
     </property>
-    <layout class="QVBoxLayout" name="verticalLayout">
+    <layout class="QVBoxLayout" name="verticalLayout_itemsManagement">
      <item>
       <widget class="QPushButton" name="pushButton_createItem">
        <property name="text">
@@ -101,7 +101,7 @@
       <widget class="QPushButton" name="pushButton_deleteItem">
        <property name="font">
         <font>
-         <strikeout>true</strikeout>
+         <strikeout>false</strikeout>
         </font>
        </property>
        <property name="text">

@@ -35,9 +35,9 @@
      <height>59</height>
     </rect>
    </property>
-   <layout class="QVBoxLayout" name="verticalLayout">
+   <layout class="QVBoxLayout" name="verticalLayout_showOrderPapersPeriod">
     <item>
-     <widget class="QLabel" name="label_periodTitle">
+     <widget class="QLabel" name="label__showOrderPapersPeriodPeriodTitle">
       <property name="font">
        <font>
         <pointsize>12</pointsize>
@@ -49,9 +49,9 @@
      </widget>
     </item>
     <item>
-     <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <layout class="QHBoxLayout" name="horizontalLayout_showOrderPapersPeriod">
       <item>
-       <layout class="QHBoxLayout" name="horizontalLayout">
+       <layout class="QHBoxLayout" name="horizontalLayout__showOrderPapersPeriodFromDate">
         <item>
          <widget class="QLabel" name="label_fromDate">
           <property name="text">
@@ -65,7 +65,7 @@
        </layout>
       </item>
       <item>
-       <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <layout class="QHBoxLayout" name="horizontalLayout_showOrderPapersPeriodToDate">
         <item>
          <widget class="QLabel" name="label_toDate">
           <property name="text">
@@ -111,6 +111,9 @@
      <width>641</width>
      <height>311</height>
     </rect>
+   </property>
+   <property name="editTriggers">
+    <set>QAbstractItemView::NoEditTriggers</set>
    </property>
    <property name="showGrid">
     <bool>true</bool>

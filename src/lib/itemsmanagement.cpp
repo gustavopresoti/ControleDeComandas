@@ -28,3 +28,12 @@ void ItemsManagement::on_pushButton_createItem_clicked()
 
     createItem->exec();
 }
+
+void ItemsManagement::on_pushButton_deleteItem_clicked()
+{
+    deleteItem = new DeleteItem(this);
+
+    deleteItem->setModal(true);
+
+    deleteItem->exec();
+}

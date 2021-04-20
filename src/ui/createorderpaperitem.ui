@@ -81,9 +81,9 @@
       <height>121</height>
      </rect>
     </property>
-    <layout class="QVBoxLayout" name="verticalLayout_4">
+    <layout class="QVBoxLayout" name="verticalLayout_orderPaperItemCreate">
      <item>
-      <layout class="QVBoxLayout" name="verticalLayout_3">
+      <layout class="QVBoxLayout" name="verticalLayout_orderPaperItemName">
        <item>
         <widget class="QLabel" name="label_orderPaperItemName">
          <property name="text">
@@ -101,9 +101,9 @@
       </layout>
      </item>
      <item>
-      <layout class="QHBoxLayout" name="horizontalLayout">
+      <layout class="QHBoxLayout" name="horizontalLayout_orderPaperItemAmountAndValue">
        <item>
-        <layout class="QVBoxLayout" name="verticalLayout">
+        <layout class="QVBoxLayout" name="verticalLayout_orderPaperItemAmount">
          <item>
           <widget class="QLabel" name="label_orderPaperItemAmount">
            <property name="text">
@@ -117,7 +117,7 @@
         </layout>
        </item>
        <item>
-        <layout class="QVBoxLayout" name="verticalLayout_2">
+        <layout class="QVBoxLayout" name="verticalLayout_orderPaperItemValue">
          <item>
           <widget class="QLabel" name="label_orderPaperItemValue">
            <property name="text">
